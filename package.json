@@ -1,5 +1,5 @@
 {
-    "name": "@insuper/dashooks",
+    "name": "dashooks",
     "version": "1.0.0",
     "description": "useful collections of hooks that I've been copying from project to project. Now everyone can use it.",
     "private": false,
