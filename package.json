@@ -1,5 +1,5 @@
 {
-    "name": "dashooks",
+    "name": "@insuper/dashooks",
     "version": "1.0.0",
     "description": "useful collections of hooks that I've been copying from project to project. Now everyone can use it.",
     "private": false,
@@ -18,7 +18,7 @@
     },
     "keywords": [],
     "author": "Youssouf Kacemi",
-    "license": "ISC",
+    "license": "MIT",
     "devDependencies": {
         "@changesets/cli": "^2.26.1",
         "@types/node": "^18.16.2",
