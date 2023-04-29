@@ -1,8 +1,9 @@
 {
-    "name": "@insuper/dashooks",
+    "name": "dashooks",
     "version": "1.0.0",
     "description": "useful collections of hooks that I've been copying from project to project. Now everyone can use it.",
     "private": false,
+    "repository": "https://github.com/dr1tch/dashooks",
     "main": "./dist/index.js",
     "module": "./dist/index.mjs",
     "types": "./dist/index.d.ts",
