@@ -14,4 +14,4 @@ const useOutsideClick = (ref: any, callback: () => void) => {
   });
 };
 
-export { useOutsideClick };
+export default useOutsideClick;

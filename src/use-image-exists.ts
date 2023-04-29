@@ -27,4 +27,4 @@ const useImageExists = (url: string) => {
   }, [url]);
   return isExists;
 };
-export { useImageExists };
+export default useImageExists;
