@@ -8,7 +8,7 @@ export const SIZES = {
 };
 /**
  * useMediaQuery: Hook that verify if a screen size matches the window size
- * @param screen: "sm" | "md" | "lg" | "xl" | "2xl" - screen you want to verify if the window matches or not
+ * @param screen: "sm" | "md" | "lg" | "xl" | "2xl" (union) - screen you want to verify if the window matches or not
  * @returns boolean
  */
 export const useMediaQuery = (screen: "sm" | "md" | "lg" | "xl" | "2xl") => {
