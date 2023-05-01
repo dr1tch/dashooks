@@ -1,6 +1,10 @@
 import { useEffect, useState } from "react";
-
-const useImageExists = (url: string) => {
+/**
+ * useImageExists: Hook that verify if the url of the image is valid or not
+ * @param url: string - url you want to verify
+ * @returns boolean
+ */
+export const useImageExists = (url: string) => {
   const [isExists, setIsExists] = useState<boolean>(false);
 
   useEffect(() => {
@@ -27,4 +31,3 @@ const useImageExists = (url: string) => {
   }, [url]);
   return isExists;
 };
-export default useImageExists;

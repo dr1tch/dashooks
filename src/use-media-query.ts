@@ -1,16 +1,21 @@
 import React from "react";
-export const sizes = {
+export const SIZES = {
   sm: "640px",
   md: "768px",
   lg: "1024px",
   xl: "1280px",
   "2xl": "1536px",
 };
+/**
+ * useMediaQuery: Hook that verify if a screen size matches the window size
+ * @param screen: "sm" | "md" | "lg" | "xl" | "2xl" - screen you want to verify if the window matches or not
+ * @returns boolean
+ */
 export const useMediaQuery = (screen: "sm" | "md" | "lg" | "xl" | "2xl") => {
   const [matches, setMatches] = React.useState(false);
 
   React.useEffect(() => {
-    const query = `(min-width: ${sizes[screen]})`;
+    const query = `(min-width: ${SIZES[screen]})`;
     const media = window.matchMedia(query);
     if (media.matches !== matches) {
       setMatches(media.matches);

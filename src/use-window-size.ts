@@ -4,8 +4,12 @@ interface Size {
   width: number;
   height: number;
 }
-
-function useWindowSize(): Size {
+/**
+ * useWindowSize: return the window width and hight
+ *
+ * @return { width: number hight: number }  {Size}
+ */
+export function useWindowSize() {
   const [windowSize, setWindowSize] = useState<Size>({
     width: 0,
     height: 0,
@@ -26,5 +30,3 @@ function useWindowSize(): Size {
   }, []);
   return windowSize;
 }
-
-export default useWindowSize;
